@@ -1,4 +1,4 @@
 main:
-	mov rk, 0xa
-	mov rp1, 0x0
-	int
+	MOV RK, 0xA
+	MOV RP1, 0x0
+	INT
