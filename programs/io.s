@@ -1,0 +1,26 @@
+main:
+	MOV RK, 0x61
+	MOV RP1, 0x1
+	INT
+	MOV R1, RR1
+
+	MOV RK, 0x2
+	MOV RP1, 0X3
+	MOV RP2, R1
+	MOV RP3, 0x1
+	INT
+	MOV R2, RR1
+
+	MOV RK, 0x1
+	MOV RP1, 0x1
+	MOV RP2, R2
+	MOV RP3, 0x1
+	INT
+
+	MOV RK, 0x63
+	MOV RP1, R1
+	INT
+
+	MOV RK, 0x0A
+	MOV RP1, 0x0
+	INT
