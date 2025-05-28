@@ -1,4 +1,4 @@
-main:
+exit:
 	MOV RK, 0xA
 	MOV RP1, 0x0
 	INT
